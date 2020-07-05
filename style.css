@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: auto;
+}
+
+html,
+body {
+    width: auto;
+    height: auto;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    box-sizing: content-box;
+}
+
+.qrbox {
+    display: grid;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border: 2px sold palevioletred;
+    border-radius: 0.5rem;
+}
+
+textarea {
+    outline: none;
+    height: 100px;
+    padding: 1rem;
+    border: 2px solid palevioletred;
+    border-radius: 0.5rem;
+}
+
+button {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: palevioletred;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: lightpink;
+}
